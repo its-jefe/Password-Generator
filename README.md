@@ -1,56 +1,30 @@
 # 03 JavaScript: Password Generator
 
-https://its-jefe.github.io/Password-Generator/
+Deployed | https://its-jefe.github.io/Password-Generator/
 
-Create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
+### [Project #3][1] for [UCF Coding Bootcamp][2]
 
-If you are unfamiliar with special characters, take a look at [some examples](https://www.owasp.org/index.php/Password_special_characters).
+Generates a random password based on user-selected criteria. Features dynamically updated HTML and CSS powered by JavaScript code.
+CSS and basic layout was provided. The focus of this project was to get familiar with writing JavaScript logic and DOM Manipulation.
 
-## User Story
+## Usage
+Select your criteria. User must select at least 1
+> Length (8-128)
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+> Lowercase Letters
 
-## Acceptance Criteria
+> Uppercase Letters
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
+> Numbers
 
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
+> Special Characters:
 
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
+## Implements
+> Opted for `HTML` checkboxes for the criteria instead of user prompts
+ 
+> Some added `CSS`
 
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
+> `JavaScript`
 
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-
-VWHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
-
-The following image demonstrates the application functionality:
-
-![password generator demo](./assets/03-javascript-homework-demo.png)
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+[1]: https://github.com/UCF-Coding-Boot-Camp/UCF-VIRT-BO-FSF-PT-04-2021-U-B/tree/main/03-JavaScript/02-Challenge
+[2]: https://bootcamp.ce.ucf.edu/coding/
